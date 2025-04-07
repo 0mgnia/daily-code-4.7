@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int main() {
+	int num = rand() % 100;
+	cout << "Type a number between 10 and 100" << endl;
+	cin >> num;
+	for (int j = 10; j <= num; j += 2)
+		cout << j << " ";
+}
